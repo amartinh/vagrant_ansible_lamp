@@ -2,4 +2,3 @@
 .vagrant/*
 # Silex FW. To be downloaded from their repos and provisioned with dependency manager
 silex/vendor
-silex/composer.lock

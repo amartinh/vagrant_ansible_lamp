@@ -1,0 +1,6 @@
+- name: composer create-project
+  composer: command=install working_dir=/vagrant/silex
+- name: bootstrap silex
+  template:
+    src=index.php.j2
+    dest=/vagrant/silex/index.php

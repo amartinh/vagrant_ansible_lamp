@@ -1,2 +1,3 @@
 ---
 - include: composer.yml
+- include: silex.yml

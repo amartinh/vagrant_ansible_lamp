@@ -1,7 +1,8 @@
 ---
 - name: install apache
   apt: name=apache2 state=present
-
+- name: enabled mod_rewrite
+  apache2_module: name=rewrite state=present
 - name: Copy across new virtual host
   template:
     src=virtual-hosts.conf.j2

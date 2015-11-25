@@ -2,7 +2,7 @@
 - hosts: all
   sudo: true
   vars:
-    document_root: /vagrant/silex
+    document_root: /vagrant/silex/web
   pre_tasks:
     - name: update apt cache
       apt: update_cache=yes
